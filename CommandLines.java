@@ -6,8 +6,8 @@ For	                      Commands	                                          Wor
 	                        systeminfo	                                        Shows Your PC's Details	cd.. one folder back
 Java	
 	                        For Run Java Program
-                          C:\Users\Your Name>javac Main.java
-                          C:\Users\Your Name>java Main
+  Compile Program                   C:\Users\Your Name>javac Main.java
+  Run Java Program                  C:\Users\Your Name>java Main
                           Hello World
 
 Appium
