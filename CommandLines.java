@@ -21,6 +21,47 @@ Appium
                           dc.setCapability(MobileCapabilityType.DEVICE_NAME, ""Android"");
                           dc.setCapability(MobileCapabilityType.APP, ""F\\Google Drive\\Trainning Material\\Appium\\APK Files\\IndiaMART.apk"");
 
+Commands - SQL + Jenkins + Appium
+
+CMD
+cd /d d:  	for change drive
+cd\  		start from c drive
+cd.. 		one folder back
+dir  		To know file and folder name avilable in current directory
+cls  		To clear Command Prompt
+__________________________________________
+Jenkins - Manually Start
+Jenkins.war path: 	cd C:\Users\Shivam Parashar\OneDrive\Jenkins\
+					cd C:\Users\Shivam Parashar\Jenkins
+To Start Jenkins: 	java -jar jenkins.war
+Pstgre Password : Password 
+__________________________________________
+To satrt server - 			appium
+For app web version - 		appium --allow-cors
+To clean aommand prompt - 	cls
+
+Common:
+Location file : 	cd bqurious
+File Run : 			java -jar startBqClient.jar 
+
+Location -> Devices -> Billing Contract -> Create Bill
+Bill > Bill Item 
+
+agar kabhi ye error aye to follow these steps :
+i- Launch chrome://flags/#allow-insecure-localhost on Chrome
+ii- Look for the option "Allow invalid certificates for resources loaded from localhost." and enable the option.
+iii- Relaunch Chrome
+iv- Access BQ Platform and try Recording/Local Execution.
+_________________________________________
+mysql --version
+mysqld --console
+mysql -u root -p
+MYSQL password : Password@1213
+clear cmd - system cls
+C:\Program Files\MySQL\MySQL Server 8.0\bin
+C:\ProgramData\MySQL\MySQL Server 8.0
+
+mysqld --defaults-file="C:\\ProgramData\MySQL\MySQL Server 8.0\\my.ini" --init-file=c:\\mysql-init.txt --console
 
 
 
