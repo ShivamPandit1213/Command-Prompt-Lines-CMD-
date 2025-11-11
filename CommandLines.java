@@ -36,6 +36,10 @@ icacls gives Full Control permissions to Administrators
 
 takeown /F "E:\Applications" /R /D Y
 icacls "E:\Applications" /grant administrators:F /T
+	Explanation:
+takeown — makes the Administrators group the owner of all files and subfolders inside E:\Applications
+icacls — grants that group Full Control
+/R and /T — apply changes recursively through all subfolders
 __________________________________________
 Jenkins - Manually Start
 Jenkins.war path: 	cd C:\Users\Shivam Parashar\OneDrive\Jenkins\
