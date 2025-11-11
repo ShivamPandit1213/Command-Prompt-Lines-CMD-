@@ -33,6 +33,9 @@ Give folder permission - change access to Administrator[Extenal Drive] -> Run Co
 ✅ What this does:
 takeown changes ownership to the Administrators group (recursively)
 icacls gives Full Control permissions to Administrators
+
+takeown /F "E:\Applications" /R /D Y
+icacls "E:\Applications" /grant administrators:F /T
 __________________________________________
 Jenkins - Manually Start
 Jenkins.war path: 	cd C:\Users\Shivam Parashar\OneDrive\Jenkins\
