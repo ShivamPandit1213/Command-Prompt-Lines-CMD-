@@ -26,6 +26,13 @@ cd\  		start from c drive
 cd.. 		one folder back
 dir  		To know file and folder name avilable in current directory
 cls  		To clear Command Prompt
+
+Give folder permission - change access to Administrator[Extenal Drive] -> Run Command Prompt as Administrator
+	takeown /F "F:\WindowsApps" /R /D Y
+	icacls "F:\WindowsApps" /grant administrators:F /T
+✅ What this does:
+takeown changes ownership to the Administrators group (recursively)
+icacls gives Full Control permissions to Administrators
 __________________________________________
 Jenkins - Manually Start
 Jenkins.war path: 	cd C:\Users\Shivam Parashar\OneDrive\Jenkins\
