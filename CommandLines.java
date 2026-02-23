@@ -24,6 +24,22 @@ Steps to Run:		1. Enter path for platform-tools where adb.exe placed - C:\Users\
 					R5CNC186BEE     device
 					3. Run cmd: appium
 
+Extract App .apk File from Mobile device:
+To Extract .apk file already installed:
+	Step1: To list all package - 
+		adb shell pm list packages[Window]
+		adb shell pm list packages | grep facebook[Mac]
+	Extract only app pakage:
+		adb shell pm list packages | findstr facebook
+		adb shell pm list packages | findstr supervpn
+Initial Package: adb shell pm list packages --user 0 | findstr facebook
+To confirm Main app: adb shell cmd package resolve-activity --brief com.facebook.katana
+	Resultconsole: priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false com.facebook.katana/.LoginActivity
+		options.setAppPackage("com.facebook.katana");
+		options.setAppActivity("com.facebook.katana.LoginActivity");
+Step2: Select only base.apk file from cmd - adb pull /data/app/~~c1VVlQ8lERYnsC2FzjANeQ==/com.facebook.katana-U57f3XcS0LU86s7B6ea7zg==/base.apk
+
+
 Commands - SQL + Jenkins + Appium
 CMD
 cd /d d:  	for change drive
