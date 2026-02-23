@@ -18,6 +18,11 @@ Appium
                           dc.setCapability(MobileCapabilityType.PLATEFORM_VERSION, ""5.1"");
                           dc.setCapability(MobileCapabilityType.DEVICE_NAME, ""Android"");
                           dc.setCapability(MobileCapabilityType.APP, ""F\\Google Drive\\Trainning Material\\Appium\\APK Files\\IndiaMART.apk"");
+Steps to Run:		1. Enter path for platform-tools where adb.exe placed - C:\Users\Shivam Parashar\platform-tools				
+					2. Run cmd: adb devices
+					List of devices attached
+					R5CNC186BEE     device
+					3. Run cmd: appium
 
 Commands - SQL + Jenkins + Appium
 CMD
