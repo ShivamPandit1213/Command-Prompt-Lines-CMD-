@@ -18,7 +18,12 @@ icacls "E:\Applications" /grant administrators:F /T
 takeown — makes the Administrators group the owner of all files and subfolders inside E:\Applications
 icacls — grants that group Full Control
 /R and /T — apply changes recursively through all subfolders
-__________________________________________
+______________________________________________________________________________________
+Cypress Setup
+	To Install: npm install cypress --save-dev
+	To Open Cypress: npx cypress open
+	
+______________________________________________________________________________________
 	For	                      Commands	                                          Work
 	                        driverquery	                                        Lists All Installed Drivers	
 	                        powershell start cmd -v runAs 	                    Run the Command Prompt as an Administrator	cd\  start from c drive
@@ -29,7 +34,7 @@ Java
   Compile Program                   C:\Users\Your Name>javac Main.java
   Run Java Program                  C:\Users\Your Name>java Main
                           Hello World
-
+______________________________________________________________________________________
 Appium
                           abd.exe devices for Command line
                           DesiredCapabilities dc = new DesiredCapabilities();                            Open Appium and Coonect
@@ -58,8 +63,7 @@ To confirm Main app: adb shell cmd package resolve-activity --brief com.facebook
 		options.setAppPackage("com.facebook.katana");
 		options.setAppActivity("com.facebook.katana.LoginActivity");
 Step2: Select only base.apk file from cmd - adb pull /data/app/~~c1VVlQ8lERYnsC2FzjANeQ==/com.facebook.katana-U57f3XcS0LU86s7B6ea7zg==/base.apk
-
-
+______________________________________________________________________________________
 Commands - SQL + Jenkins + Appium
 
 Jenkins - Manually Start
@@ -67,11 +71,11 @@ Jenkins.war path: 	cd C:\Users\Shivam Parashar\OneDrive\Jenkins\
 					cd C:\Users\Shivam Parashar\Jenkins
 To Start Jenkins: 	java -jar jenkins.war
 Pstgre Password : Password 
-__________________________________________
+______________________________________________________________________________________
 To satrt server - 			appium
 For app web version - 		appium --allow-cors
 To clean aommand prompt - 	cls
-_________________________________________
+______________________________________________________________________________________
 mysql --version
 mysqld --console
 mysql -u root -p
