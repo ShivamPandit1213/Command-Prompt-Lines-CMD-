@@ -1,5 +1,25 @@
-For	                      Commands	                                          Work
+CMD
+cd /d d:  	for change drive
+cd\  		start from c drive
+cd.. 		one folder back
+dir  		To know file and folder name avilable in current directory
+cls  		To clear Command Prompt
 
+Give folder permission - change access to Administrator[Extenal Drive] -> Run Command Prompt as Administrator
+	takeown /F "F:\WindowsApps" /R /D Y
+	icacls "F:\WindowsApps" /grant administrators:F /T
+✅ What this does:
+takeown changes ownership to the Administrators group (recursively)
+icacls gives Full Control permissions to Administrators
+
+takeown /F "E:\Applications" /R /D Y
+icacls "E:\Applications" /grant administrators:F /T
+	Explanation:
+takeown — makes the Administrators group the owner of all files and subfolders inside E:\Applications
+icacls — grants that group Full Control
+/R and /T — apply changes recursively through all subfolders
+__________________________________________
+	For	                      Commands	                                          Work
 	                        driverquery	                                        Lists All Installed Drivers	
 	                        powershell start cmd -v runAs 	                    Run the Command Prompt as an Administrator	cd\  start from c drive
 	                        chdir or cd	                                        Changes the Current Working Directory to the Specified Directory	cd /d d:  for change drive
@@ -41,27 +61,7 @@ Step2: Select only base.apk file from cmd - adb pull /data/app/~~c1VVlQ8lERYnsC2
 
 
 Commands - SQL + Jenkins + Appium
-CMD
-cd /d d:  	for change drive
-cd\  		start from c drive
-cd.. 		one folder back
-dir  		To know file and folder name avilable in current directory
-cls  		To clear Command Prompt
 
-Give folder permission - change access to Administrator[Extenal Drive] -> Run Command Prompt as Administrator
-	takeown /F "F:\WindowsApps" /R /D Y
-	icacls "F:\WindowsApps" /grant administrators:F /T
-✅ What this does:
-takeown changes ownership to the Administrators group (recursively)
-icacls gives Full Control permissions to Administrators
-
-takeown /F "E:\Applications" /R /D Y
-icacls "E:\Applications" /grant administrators:F /T
-	Explanation:
-takeown — makes the Administrators group the owner of all files and subfolders inside E:\Applications
-icacls — grants that group Full Control
-/R and /T — apply changes recursively through all subfolders
-__________________________________________
 Jenkins - Manually Start
 Jenkins.war path: 	cd C:\Users\Shivam Parashar\OneDrive\Jenkins\
 					cd C:\Users\Shivam Parashar\Jenkins
