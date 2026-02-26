@@ -62,7 +62,8 @@ To confirm Main app: adb shell cmd package resolve-activity --brief com.facebook
 	Resultconsole: priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false com.facebook.katana/.LoginActivity
 		options.setAppPackage("com.facebook.katana");
 		options.setAppActivity("com.facebook.katana.LoginActivity");
-Step2: Select only base.apk file from cmd - adb pull /data/app/~~c1VVlQ8lERYnsC2FzjANeQ==/com.facebook.katana-U57f3XcS0LU86s7B6ea7zg==/base.apk
+Step2: Execute cmd to see base.apk - adb shell pm path com.android.chrome
+Step3: Select only base.apk file from cmd - adb pull /data/app/~~c1VVlQ8lERYnsC2FzjANeQ==/com.facebook.katana-U57f3XcS0LU86s7B6ea7zg==/base.apk
 ______________________________________________________________________________________
 Commands - SQL + Jenkins + Appium
 
