@@ -64,6 +64,7 @@ To confirm Main app: adb shell cmd package resolve-activity --brief com.facebook
 		options.setAppActivity("com.facebook.katana.LoginActivity");
 Step2: Execute cmd to see base.apk - adb shell pm path com.android.chrome
 Step3: Select only base.apk file from cmd - adb pull /data/app/~~c1VVlQ8lERYnsC2FzjANeQ==/com.facebook.katana-U57f3XcS0LU86s7B6ea7zg==/base.apk
+Step4: Appium does not support base.ap so convert it to base.apk via cmd: ren base.ap base.apk
 ______________________________________________________________________________________
 Commands - SQL + Jenkins + Appium
 
