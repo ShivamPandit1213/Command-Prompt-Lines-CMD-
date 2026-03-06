@@ -25,10 +25,10 @@ Cypress Setup																		Playwright
 	
 ______________________________________________________________________________________
 	For	                      Commands	                                          Work
-	                        driverquery	                                        Lists All Installed Drivers	
-	                        powershell start cmd -v runAs 	                    Run the Command Prompt as an Administrator	cd\  start from c drive
-	                        chdir or cd	                                        Changes the Current Working Directory to the Specified Directory	cd /d d:  for change drive
-	                        systeminfo	                                        Shows Your PC's Details	cd.. one folder back
+	        	        driverquery	                                       Lists All Installed Drivers	
+	                    powershell start cmd -v runAs 	                   Run the Command Prompt as an Administrator	cd\  start from c drive
+	                    chdir or cd	                                       Changes the Current Working Directory to the Specified Directory	cd /d d:  for change drive
+	                    systeminfo	                                       Shows Your PC's Details	cd.. one folder back
 Java	
 	                        For Run Java Program
   Compile Program                   C:\Users\Your Name>javac Main.java
