@@ -35,6 +35,15 @@ Java
   Run Java Program                  C:\Users\Your Name>java Main
                           Hello World
 ______________________________________________________________________________________
+Maven Commands
+	Check Maven version: 	mvn -version
+	Compile the project: 	mvn compile
+	Clean the project (delete target folder): 	mvn clean
+	Package the project (create JAR/WAR): 	mvn package
+	Install project to local repository:	mvn install
+	Run tests: 		mvn test
+	Clean and build together: 	mvn clean install
+______________________________________________________________________________________
 Appium
                           abd.exe devices for Command line
                           DesiredCapabilities dc = new DesiredCapabilities();                            Open Appium and Coonect
