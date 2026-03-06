@@ -4,6 +4,7 @@ cd\  		start from c drive
 cd.. 		one folder back
 dir  		To know file and folder name avilable in current directory
 cls  		To clear Command Prompt
+C:			To go back to C drive
 
 Give folder permission - change access to Administrator[Extenal Drive] -> Run Command Prompt as Administrator
 	takeown /F "F:\WindowsApps" /R /D Y
