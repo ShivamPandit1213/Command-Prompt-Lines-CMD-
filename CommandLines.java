@@ -57,7 +57,11 @@ my-project
 	Clean and build together: 	mvn clean install
 
 Create Maven Project: mvn archetype:generate -DgroupId=com.example.app -DartifactId=my-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
-	
+
+Run the Project
+	Compile and run:
+		mvn clean compile
+		mvn exec:java -Dexec.mainClass="com.example.app.App"
 ______________________________________________________________________________________
 Appium
                           abd.exe devices for Command line
