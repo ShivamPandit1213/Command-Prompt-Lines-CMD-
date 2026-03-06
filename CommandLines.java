@@ -36,6 +36,18 @@ Java
                           Hello World
 ______________________________________________________________________________________
 Maven Commands
+my-project
+ ├── pom.xml
+ └── src
+     ├── main
+     │   ├── java
+     │   │   └── com/example/app
+     │   │        ├── App.java
+     │   │        ├── HelloService.java
+     │   │        └── ConfigReader.java
+     │   └── resources
+     │        └── config.properties
+     └── test
 	Check Maven version: 	mvn -version
 	Compile the project: 	mvn compile
 	Clean the project (delete target folder): 	mvn clean
@@ -43,6 +55,9 @@ Maven Commands
 	Install project to local repository:	mvn install
 	Run tests: 		mvn test
 	Clean and build together: 	mvn clean install
+
+Create Maven Project: mvn archetype:generate -DgroupId=com.example.app -DartifactId=my-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+	
 ______________________________________________________________________________________
 Appium
                           abd.exe devices for Command line
