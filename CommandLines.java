@@ -36,18 +36,18 @@ Java
                           Hello World
 ______________________________________________________________________________________
 Maven Commands
-my-project
- ├── pom.xml
- └── src
-     ├── main
-     │   ├── java
-     │   │   └── com/example/app
-     │   │        ├── App.java
-     │   │        ├── HelloService.java
-     │   │        └── ConfigReader.java
-     │   └── resources
-     │        └── config.properties
-     └── test
+	my-project
+	 ├── pom.xml
+	 └── src
+	     ├── main
+	     │   ├── java
+	     │   │   └── com/example/app
+	     │   │        ├── App.java
+	     │   │        ├── HelloService.java
+	     │   │        └── ConfigReader.java
+	     │   └── resources
+	     │        └── config.properties
+	     └── test
 	Check Maven version: 	mvn -version
 	Compile the project: 	mvn compile
 	Clean the project (delete target folder): 	mvn clean
