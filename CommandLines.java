@@ -98,6 +98,12 @@ Step4: Appium does not support base.ap so convert it to base.apk via cmd: ren ba
 ______________________________________________________________________________________
 Commands - SQL + Jenkins + Appium
 
+Jenkins - Web
+1. Navigate to: C:\Users\shiva\OneDrive\Jenkins
+2. Execute: java -jar jenkins.war
+3. Navigate to: http://localhost:8080/login?from=%2F
+4. Enter Secrets-Key: 6fa5fc0d50824f98877f13056bd0f36a
+
 Jenkins - Manually Start
 Jenkins.war path: 	cd C:\Users\Shivam Parashar\OneDrive\Jenkins\
 					cd C:\Users\Shivam Parashar\Jenkins
