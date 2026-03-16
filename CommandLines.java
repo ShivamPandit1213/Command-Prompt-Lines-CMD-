@@ -96,7 +96,7 @@ Step3: Select only base.apk file from cmd - adb pull /data/app/~~c1VVlQ8lERYnsC2
 Step4: Appium does not support base.ap so convert it to base.apk via cmd: ren base.ap base.apk
 	base.apk store in Folder 'platform-tools' : C:\Users\Shivam Parashar\platform-tools
 ______________________________________________________________________________________
-Commands - SQL + Jenkins + Appium
+Commands - Jenkins
 
 Jenkins - Web
 1. Navigate to: C:\Users\shiva\OneDrive\Jenkins
