@@ -114,6 +114,41 @@ To satrt server - 			appium
 For app web version - 		appium --allow-cors
 To clean aommand prompt - 	cls
 ______________________________________________________________________________________
+Git	-	Workflow (Add → Commit → Push)
+	Install cmd: winget install --id Git.Git -e --source winget
+	Git version: git --version
+	SetName: C:\Users\shiva>git config --global user.name "Shivam Parashar"
+	SetEmail: C:\Users\shiva>git config --global user.email "shivamparashar1213@gmail.com"
+
+1️⃣ Initialize Git (first time only)
+git init
+2️⃣ Add files to staging
+git add .
+👉 Adds all files (your Selenium project)
+
+OR specific file:
+git add ChatBot.java
+	
+3️⃣ Commit changes
+git commit -m "Added chatbot automation logic"
+👉 This saves snapshot locally
+
+4️⃣ Connect to GitHub repo (one-time setup)
+git remote add origin https://github.com/username/repo-name.git
+5️⃣ Push code to GitHub
+git push -u origin main
+👉 Sends your code to GitHub 🚀
+
+🔄 Pull (Get Latest Code from GitHub)
+git pull origin main
+👉 Use this before starting work to avoid conflicts
+
+🔁 Daily Workflow (Very Important):
+git add .
+git commit -m "Updated chatbot logic"
+git pull origin main
+git push origin main
+______________________________________________________________________________________
 mysql --version
 mysqld --console
 mysql -u root -p
