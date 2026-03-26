@@ -115,12 +115,25 @@ To satrt server - 			appium
 For app web version - 		appium --allow-cors
 To clean aommand prompt - 	cls
 ______________________________________________________________________________________
-Git	-	Workflow (Add → Commit → Push)
-	Install cmd: winget install --id Git.Git -e --source winget
-	Git version: git --version
-	SetName: C:\Users\shiva>git config --global user.name "Shivam Parashar"
-	SetEmail: C:\Users\shiva>git config --global user.email "shivamparashar1213@gmail.com"
-
+Git	-	Workflow (Add → Commit → Push)															Git - Flow
+	Install cmd: winget install --id Git.Git -e --source winget									cd ~/onedrive/javaselenium
+	Git version: git --version																	rm -rf .git     # safe
+	SetName: C:\Users\shiva>git config --global user.name "Shivam Parashar"						cd jobs
+	SetEmail: C:\Users\shiva>git config --global user.email "shivamparashar1213@gmail.com"		git init
+	one folder back[Git]: cd ..																	git add .
+																								git commit -m "Initial commit"
+	cd onedriver -> cd javaselenium -> cd ProjectName											git commit -m "Initial commit - jobs project"
+	Remove this warning: git config --global core.autocrlf true	
+																								If using Eclipse then edit .gitignore file and add
+																								# TestNG Reports
+																									test-output/
+																									# Driver files
+																									*.exe
+																									# Logs
+																									*.log
+																									# OS files
+																									.DS_Store
+																									Thumbs.db
 1️⃣ Initialize Git (first time only)
 git init
 2️⃣ Add files to staging
