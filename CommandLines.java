@@ -21,8 +21,8 @@ takeown — makes the Administrators group the owner of all files and subfolders
 icacls — grants that group Full Control
 /R and /T — apply changes recursively through all subfolders
 ______________________________________________________________________________________
-Cypress Setup																		Playwright
-	To Install: npm install cypress --save-dev										To Install: npm init playwright@latest -> Y -> tests -> Enter -> Enter
+Cypress Setup														Playwright
+	To Install: npm install cypress --save-dev						To Install: npm init playwright@latest -> Y -> tests -> Enter -> Enter
 	To Open Cypress: npx cypress open
 	
 ______________________________________________________________________________________
