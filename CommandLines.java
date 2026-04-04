@@ -56,6 +56,12 @@ Maven Commands
 	     │   └── resources
 	     │        └── config.properties
 	     └── test
+Install: apache-maven-3.9.11-bin
+	Environment Variables -> System variables -> New:
+	Variable Name:		MAVEN_HOME
+	Variable Value:		C:\Users\shiva\Maven\bin
+	System variables -> Path -> Edit -> New: %MAVEN_HOME%\bin
+	
 	Check Maven version: 	mvn -version
 	Compile the project: 	mvn compile
 	Clean the project (delete target folder): 	mvn clean
