@@ -31,11 +31,17 @@ For	                 Commands	                                     Work
 	            	powershell start cmd -v runAs 	                Run the Command Prompt as an Administrator	cd\  start from c drive
 	                chdir or cd	                                    Changes the Current Working Directory to the Specified Directory	cd /d d:  for change drive
 	                systeminfo	                                    Shows Your PC's Details	cd.. one folder back
+______________________________________________________________________________________
 Java	
 	                        For Run Java Program
   Compile Program                   C:\Users\Your Name>javac Main.java
   Run Java Program                  C:\Users\Your Name>java Main
                           Hello World
+
+Environment Variables -> System variables -> New:
+Variable Name:		JAVA_HOME
+Variable Value:		C:\Program Files\Java\jdk-17
+System variables -> Path -> Edit -> New: %JAVA_HOME%\bin
 ______________________________________________________________________________________
 Maven Commands
 	my-project
@@ -105,6 +111,8 @@ Jenkins - Web
 3. Navigate to: http://localhost:8080/login?from=%2F
 4. Enter Secrets-Key: 6fa5fc0d50824f98877f13056bd0f36a
 
+JDK 17[JAVA_HOME: C:\Program Files\Java\jdk-17] issue: "C:\Program Files\Java\jdk-17\bin\java.exe" -jar jenkins.war
+	
 Jenkins - Manually Start
 Jenkins.war path: 	cd C:\Users\Shivam Parashar\OneDrive\Jenkins\
 					cd C:\Users\Shivam Parashar\Jenkins
