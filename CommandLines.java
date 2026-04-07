@@ -139,17 +139,19 @@ Git	-	Workflow (Add → Commit → Push)															Git - Flow
 	one folder back[Git]: cd ..																	git add .
 																								git commit -m "Initial commit"
 	cd onedriver -> cd javaselenium -> cd ProjectName											git commit -m "Initial commit - jobs project"
-	Remove this warning: git config --global core.autocrlf true	
-																								If using Eclipse then edit .gitignore file and add
-																								# TestNG Reports
+	Check if .git exists: dir /a  /  dir														If using Eclipse then edit .gitignore file and add
+	if .git not exist then run command in cmd: git init												# TestNG Reports
 																									test-output/
-																									# Driver files
-																									*.exe
+	warnings: test-output/, *.html, *.xml, *.js														# Driver files
+	Remove this warning: git config --global core.autocrlf true										*.exe
 																									# Logs
-																									*.log
-																									# OS files
-																									.DS_Store
-																									Thumbs.db
+	in Project Update .gitignore: test-output/														*.log
+								  *.html															# OS files
+								  *.xml																.DS_Store
+								  *.js																Thumbs.db
+																									
+																									
+																									
 1️⃣ Initialize Git (first time only)
 git init
 2️⃣ Add files to staging
