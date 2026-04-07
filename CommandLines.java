@@ -64,6 +64,7 @@ Install: apache-maven-3.9.11-bin
 	
 	Check Maven version: 	mvn -version
 	Compile the project: 	mvn compile
+	mvn clean install -U:	Cleans project, Compiles code, Downloads missing plugins, Runs tests
 	Clean the project (delete target folder): 	mvn clean
 	Package the project (create JAR/WAR): 	mvn package
 	Install project to local repository:	mvn install
@@ -132,8 +133,8 @@ ________________________________________________________________________________
 Git	-	Workflow (Add → Commit → Push)															Git - Flow
 	Install cmd: winget install --id Git.Git -e --source winget									cd ~/onedrive/javaselenium
 	Git version: git --version																	rm -rf .git     # safe
-	SetName: C:\Users\shiva>git config --global user.name "Shivam Parashar"						cd jobs
-	SetEmail: C:\Users\shiva>git config --global user.email "shivamparashar1213@gmail.com"		git init
+	SetName: C:\Users\shiva>	git config --global user.name "Shivam Parashar"						cd jobs
+	SetEmail: C:\Users\shiva>	git config --global user.email "shivamparashar1213@gmail.com"		git init
 	one folder back[Git]: cd ..																	git add .
 																								git commit -m "Initial commit"
 	cd onedriver -> cd javaselenium -> cd ProjectName											git commit -m "Initial commit - jobs project"
