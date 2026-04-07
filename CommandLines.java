@@ -143,14 +143,12 @@ Git	-	Workflow (Add → Commit → Push)															Git - Flow
 	if .git not exist then run command in cmd: git init												# TestNG Reports
 																									test-output/
 	warnings: test-output/, *.html, *.xml, *.js														# Driver files
-	Remove this warning: git config --global core.autocrlf true										*.exe
-																									# Logs
 	in Project Update .gitignore: test-output/														*.log
 								  *.html															# OS files
 								  *.xml																.DS_Store
 								  *.js																Thumbs.db
-																									
-																									
+																									*.exe
+	Remove this warning: git config --global core.autocrlf true										# Logs															
 																									
 1️⃣ Initialize Git (first time only)
 git init
